@@ -1,0 +1,35 @@
+*{
+    font-family:'Slabo 27px';
+}
+
+.about{
+    width: 60%;
+    border: 1px solid
+}
+
+h1{
+    text-align: center;
+}
+
+.content{
+    padding-left: 10px;
+    width: 70%;
+    border: 1px solid
+}
+
+.content p{
+    margin-left: 10px;
+}
+
+.content ul li{
+    list-style: none
+}
+
+.content td{
+    padding: 8px;
+    vertical-align: bottom;
+}
+
+.box{
+    margin-left: 20%;
+}

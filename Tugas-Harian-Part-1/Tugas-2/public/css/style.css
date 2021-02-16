@@ -1,0 +1,65 @@
+*
+{
+    font-family: 'slabo 27px';
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 10;
+    position: fixed;
+    padding-bottom: 10px;
+}
+
+img{
+    float: left
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    float: left;
+    padding: 10px 20px;
+}
+
+body{
+    background: url(../img/pattern.jpg);
+}
+
+section{
+    margin: 6% 12%;
+    background-color: white;
+    padding: 20px
+}
+
+section h1{
+    text-align: center;
+}
+
+section a{
+    text-decoration: none;
+}
+
+.paragraph{
+    border-bottom: 1px solid;
+    margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100%;
+    padding-top: 20px;
+}
