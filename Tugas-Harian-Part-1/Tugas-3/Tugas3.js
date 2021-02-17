@@ -1,4 +1,4 @@
-//soal 1
+//soal no 1
 var kata1 = "saya";
 var kata2 = "senang";
 var kata3 = "belajar";
@@ -10,7 +10,7 @@ var kata4_upper = kata4.toUpperCase(); //mengubah kataKeempat jadi kapital semua
 console.log(kata1.concat(" " + kata2_upper_s + kata2.slice(1), " " + kata3, " " + kata4_upper));
 // saya Senang belajar JAVASCRIPT
 
-//soal 2
+//soal no 2
 var string1 = "1";
 var string2 = "2";
 var string3 = "4";
