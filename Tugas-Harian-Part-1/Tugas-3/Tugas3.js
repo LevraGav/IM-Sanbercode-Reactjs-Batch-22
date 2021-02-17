@@ -38,6 +38,26 @@ console.log('Kata Ketiga: ' + kataKetiga); // kata ketiga : itu
 console.log('Kata Keempat: ' + kataKeempat); // kata keempat : keren
 console.log('Kata Kelima: ' + kataKelima); // kata kelima : sekali
 
+//soal no 4
+var nilai = 69;
+
+if (nilai >= 80){
+    console.log("indeksnya A");
+}
+else if (nilai >= 70 && nilai < 80){
+    console.log("indeksnya B")
+}
+else if (nilai >= 60 && nilai < 70){
+    console.log("indeksnya C")
+}
+else if (nilai >= 50 && nilai < 60){
+    console.log("indeksnya D")
+}
+else {
+    console.log("indeksnya E")
+}
+// indeksnya C
+
 
 
 
