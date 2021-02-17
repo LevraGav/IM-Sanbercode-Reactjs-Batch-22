@@ -118,9 +118,8 @@ switch(bulan) {
     }
 }
 
-var strtanggal = String(tanggal);
-var strtahun = String(tahun);
-console.log(strtanggal.concat(" " + strbulan).concat(" " + strtahun)); //29 September 2001
+console.log(tanggal + " " + strbulan + " " + tahun);
+// 29 September 2001
 
 
 
