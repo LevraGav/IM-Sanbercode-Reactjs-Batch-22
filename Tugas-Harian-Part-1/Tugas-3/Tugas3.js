@@ -66,59 +66,69 @@ var strbulan;
 
 switch(bulan) {
     case 1:   { 
-        strbulan = 'Januari'; 
+        strbulan = 'Januari';
+        console.log(tanggal + " " + strbulan + " " + tahun); 
         break; 
     }
     case 2:   { 
-        strbulan = 'Februari'; 
+        strbulan = 'Februari';
+        console.log(tanggal + " " + strbulan + " " + tahun); 
         break; 
     }
     case 3:   { 
-        strbulan = 'Maret'; 
+        strbulan = 'Maret';
+        console.log(tanggal + " " + strbulan + " " + tahun); 
         break; 
     }
     case 4:   { 
-        strbulan = 'April'; 
+        strbulan = 'April';
+        console.log(tanggal + " " + strbulan + " " + tahun); 
         break; 
     }
     case 5:   { 
-        strbulan = 'Mei'; 
+        strbulan = 'Mei';
+        console.log(tanggal + " " + strbulan + " " + tahun); 
         break; 
     }
     case 6:   { 
         strbulan = 'Juni'; 
+        console.log(tanggal + " " + strbulan + " " + tahun);
         break; 
     }
     case 7:   { 
         strbulan = 'Juli';
+        console.log(tanggal + " " + strbulan + " " + tahun);
         break; 
     }
     case 8:   { 
-        strbulan = 'Agustus'; 
+        strbulan = 'Agustus';
+        console.log(tanggal + " " + strbulan + " " + tahun); 
         break; 
     }
     case 9:   { 
-        strbulan = 'September'; 
+        strbulan = 'September';
+        console.log(tanggal + " " + strbulan + " " + tahun); 
         break; 
     }
     case 10:   { 
-        strbulan = 'Oktober'; 
+        strbulan = 'Oktober';
+        console.log(tanggal + " " + strbulan + " " + tahun); 
         break; 
     }
     case 11:   { 
-        strbulan = 'November'; 
+        strbulan = 'November';
+        console.log(tanggal + " " + strbulan + " " + tahun);
         break; 
     }
     case 12:   { 
-        strbulan = 'Desember'; 
+        strbulan = 'Desember';
+        console.log(tanggal + " " + strbulan + " " + tahun); 
         break; 
     }
     default:  { 
         console.log('Bulan anda tidak ada'); 
     }
 }
-
-console.log(tanggal + " " + strbulan + " " + tahun);
 // 29 September 2001
 
 
