@@ -21,7 +21,22 @@ var number2 = parseInt(string2); // 2
 var number3 = parseInt(string3); // 4
 var number4 = parseInt(string4); // 5
 
-console.log(number1 + number2 + number3 + number4); //12
+console.log('Hasil Penjumlahan :', number1 + number2 + number3 + number4); //12
+
+//soal no 3
+var kalimat = 'wah javascript itu keren sekali'; 
+
+var kataPertama = kalimat.substring(0, 3); 
+var kataKedua = kalimat.substring(4, 14);
+var kataKetiga = kalimat.substr(15, 3);
+var kataKeempat = kalimat.substr(19, 5); 
+var kataKelima = kalimat.substring(25, 31);
+
+console.log('Kata Pertama: ' + kataPertama); // kata pertama : wah
+console.log('Kata Kedua: ' + kataKedua); // kata kedua : javascript
+console.log('Kata Ketiga: ' + kataKetiga); // kata ketiga : itu
+console.log('Kata Keempat: ' + kataKeempat); // kata keempat : keren
+console.log('Kata Kelima: ' + kataKelima); // kata kelima : sekali
 
 
 
