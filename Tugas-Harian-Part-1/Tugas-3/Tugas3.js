@@ -58,6 +58,70 @@ else {
 }
 // indeksnya C
 
+//soal no 5
+var tanggal = 29;
+var bulan = 9;
+var tahun = 2001;
+var strbulan;
+
+switch(bulan) {
+    case 1:   { 
+        strbulan = 'Januari'; 
+        break; 
+    }
+    case 2:   { 
+        strbulan = 'Februari'; 
+        break; 
+    }
+    case 3:   { 
+        strbulan = 'Maret'; 
+        break; 
+    }
+    case 4:   { 
+        strbulan = 'April'; 
+        break; 
+    }
+    case 5:   { 
+        strbulan = 'Mei'; 
+        break; 
+    }
+    case 6:   { 
+        strbulan = 'Juni'; 
+        break; 
+    }
+    case 7:   { 
+        strbulan = 'Juli';
+        break; 
+    }
+    case 8:   { 
+        strbulan = 'Agustus'; 
+        break; 
+    }
+    case 9:   { 
+        strbulan = 'September'; 
+        break; 
+    }
+    case 10:   { 
+        strbulan = 'Oktober'; 
+        break; 
+    }
+    case 11:   { 
+        strbulan = 'November'; 
+        break; 
+    }
+    case 12:   { 
+        strbulan = 'Desember'; 
+        break; 
+    }
+    default:  { 
+        console.log('Bulan anda tidak ada'); 
+    }
+}
+
+var strtanggal = String(tanggal);
+var strtahun = String(tahun);
+console.log(strtanggal.concat(" " + strbulan).concat(" " + strtahun)); //29 September 2001
+
 
 
 
