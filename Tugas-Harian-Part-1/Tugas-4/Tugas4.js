@@ -83,17 +83,14 @@ console.log("")
 
 //Soal no 3
 console.log('SOAL NO 3');
-var hasil = "";
-function pola_segitiga(panjang){
-    for(baris = 0; baris < panjang; baris++){
-        for(simbol = 0; simbol <= baris; simbol++){
-            hasil += "#";
-        }
-        hasil += "\n";
+var hasil = ""
+for(baris = 0; baris < 7; baris++){
+    for(simbol = 0; simbol <= baris; simbol++){
+        hasil += "#";
     }
-    return hasil;
+    hasil += "\n";
 }
-console.log(pola_segitiga(7));
+console.log(hasil)
 
 //#
 //##
