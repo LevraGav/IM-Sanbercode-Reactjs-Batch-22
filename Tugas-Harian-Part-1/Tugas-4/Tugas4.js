@@ -47,7 +47,7 @@ console.log("")
 
 //Soal no 2
 console.log('SOAL NO 2');
-for(number3 = 1; number3 <= 20; number3++){
+for(var number3 = 1; number3 <= 20; number3++){
     if(number3 % 2 === 0){
         console.log(number3 + " - " + "Berkualitas");
     }
@@ -83,9 +83,9 @@ console.log("")
 
 //Soal no 3
 console.log('SOAL NO 3');
-var hasil = ""
-for(baris = 0; baris < 7; baris++){
-    for(simbol = 0; simbol <= baris; simbol++){
+var hasil = "";
+for( var baris = 0; baris < 7; baris++){
+    for(var simbol = 0; simbol <= baris; simbol++){
         hasil += "#";
     }
     hasil += "\n";
@@ -112,7 +112,7 @@ console.log("")
 console.log('SOAL NO 5');
 var daftarBuah = ["2. Apel", "5. Jeruk", "3. Anggur", "4. Semangka", "1. Mangga"];
 var buah_urut = daftarBuah.sort();
-for(i = 0; i < buah_urut.length; i++){
+for(var i = 0; i < buah_urut.length; i++){
     console.log(buah_urut[i]);
 }
 //1. Mangga
