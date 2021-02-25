@@ -1,0 +1,49 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.content{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 40%;
+  margin-left:20px;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h1{
+  text-align: center;
+}
+
+table{
+  margin-left: 20px;
+}
+
+.content td{
+  vertical-align: bottom;
+}
+
+input{
+  border:1.5px solid black;
+  border-radius: 2px;
+}
+
+.box{
+  margin-left: 30px;
+}
+
+button{
+  background-color:white;
+  border-radius: 30px;
+  padding: 3px 5px;
+  margin-top: 10%;
+}
+
+.iteminput{
+  padding-top: 10px;
+}
+
+.fruit{
+  margin-left: 4px;
+}
