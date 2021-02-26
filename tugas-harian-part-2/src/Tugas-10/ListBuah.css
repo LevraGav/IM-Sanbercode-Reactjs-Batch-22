@@ -1,0 +1,52 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.small-heading{
+    text-align: left;
+    font-size: 15px;
+    margin-top: 2px;
+    margin-bottom: 2.5px;
+    font-weight: normal;
+}
+
+.table-row1{
+    line-height: 15px;
+}
+
+.table-td1{
+    background-color: grey;
+    width: 300px;
+}
+
+.table-td2{
+    background-color: grey;
+    width: 200px;
+}
+
+.small-heading1{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 15px;
+}
+
+.table-row2{
+    background-color: #eb7134;
+    line-height: 15px;
+}
+
+h1.table-head{
+    text-align: center;
+    font-size: 30px;
+}
+
+table.fruit-table{
+    border: 2px solid black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    margin-top: 50px;
+}
