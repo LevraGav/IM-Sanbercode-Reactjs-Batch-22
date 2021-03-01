@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
 import FormBuah from './Tugas-9/FormBuah'
-import Tampilkan from './Tugas-10/ListBuah'
+import ListBuah from './Tugas-10/ListBuah'
+import Timer from './Tugas-11/Timer'
 
 function App() {
   return(
     <div>
       <FormBuah />
-      <Tampilkan />
+      <ListBuah />
+      <Timer />
     </div>
   );
 }
