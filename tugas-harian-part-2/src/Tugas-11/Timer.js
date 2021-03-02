@@ -27,6 +27,14 @@ class Clock extends React.Component {
                 })
             }
         }
+        else{
+            if(this.state.timer < 0){
+                this.setState({
+                    visible: true,
+                    timer: 100
+                })
+            }
+        }
     }
 
     tick() {
