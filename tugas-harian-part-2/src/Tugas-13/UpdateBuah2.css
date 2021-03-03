@@ -1,0 +1,57 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.table_form{
+    margin-top: 10px;
+}
+
+.table_form h1{
+    text-align: center;
+}
+
+.table_form table{
+    margin: 0 auto;
+    border: solid black;
+    width: 70%;
+}
+
+.table_form table thead{
+    text-align: center;
+    background-color: #4d243d;
+    color: yellow;
+}
+
+.table_form table tbody{
+    text-align: center;
+    background-color: brown;
+    color: yellow;
+}
+
+.table_form table tbody button{
+    float: left;
+    color: black;
+    margin: 0 3px;
+}
+
+.table_form form{
+    margin: 2% 20%;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: #0d5c63;
+    color: white;
+    font-weight: 500;
+}
+
+.table_form form input{
+    float: right;
+    background-color: #FFFFFA;
+}
+
+.table_form form button{
+    float: right;
+    color: black;
+    border-radius: 5px;
+    padding: 2px 7px;
+    background-color: #e9d985;
+}
