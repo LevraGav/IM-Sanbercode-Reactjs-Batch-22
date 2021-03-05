@@ -5,6 +5,7 @@ import './App.css';
 // import Timer from './Tugas-11/Timer'
 //import List from './Tugas-12/UpdateBuah'
 import List2 from './Tugas-13/UpdateBuah2'
+import Buah from './Tugas-14/Buah';
 
 function App() {
   return(
@@ -12,8 +13,9 @@ function App() {
       {/* <FormBuah />
       <ListBuah />
       <Timer /> 
-      <List/> */}
-      <List2/>
+      <List/> 
+      <List2/> */}
+      <Buah/>
     </div>
   );
 }

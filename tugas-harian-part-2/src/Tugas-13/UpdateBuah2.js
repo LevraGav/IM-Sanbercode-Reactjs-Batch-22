@@ -2,7 +2,7 @@ import React, { useState , useEffect } from 'react';
 import axios from 'axios';
 import './UpdateBuah2.css';
 
-const Lists = () =>{
+const Lists2 = () =>{
     const [dataHargaBuah, setDataHargaBuah] =  useState(null)
     const [InNama, setInputNama]  =  useState("")
     const [InHarga, setInputHarga]  =  useState("")
@@ -142,4 +142,4 @@ const Lists = () =>{
     )
 }
 
-export default Lists;
+export default Lists2;
